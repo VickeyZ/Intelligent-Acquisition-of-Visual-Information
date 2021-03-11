@@ -43,23 +43,23 @@ Intelligent Acquisition of Visual Information Course
 ### Lab3
 1. Perform stereo calibration with OpenCV sample
 2. Compute a dense depth map / 3D point cloud from two calibrated input views via triangulation
-  - Evaluate the impact of different parameters (e.g., patch size) over final quality
+    - Evaluate the impact of different parameters (e.g., patch size) over final quality
 3. Resolve the color discrepancy between two views and produce the final colored 3D point cloud, along with the cameras, in a single .ply file
-  - You may want to perform radiometric calibration first.
+    - You may want to perform radiometric calibration first.
 
 ### Lab4 Projector-Camera-Based Stereo Vision
-Approach #1: 2 Cameras + 1 Projector
-  Stereo calibrate the two cameras
-  Project a pattern / a few patterns
-  Establish the correspondences between stereo calibrated cameras
-  Triangulate (Depth map & 3D point cloud)
-Approach #2: 1 Camera + 1 Projector
-  Calibrate the camera-projector system
-  http://mesh.brown.edu/calibration/
-  Project a pattern / a few patterns
-  Establish the correspondences between camera pixels and projector pixels
-  Triangulate (Depth map & 3D point cloud)
-As approach 2 has been chosen.
+Approach #1: 2 Cameras + 1 Projector  
+  Stereo calibrate the two cameras  
+  Project a pattern / a few patterns  
+  Establish the correspondences between stereo calibrated cameras  
+  Triangulate (Depth map & 3D point cloud)  
+Approach #2: 1 Camera + 1 Projector  
+  Calibrate the camera-projector system  
+  http://mesh.brown.edu/calibration/  
+  Project a pattern / a few patterns  
+  Establish the correspondences between camera pixels and projector pixels  
+  Triangulate (Depth map & 3D point cloud)  
+As approach 2 has been chosen.  
 
 ### Course Project
 Intro: 通过单个相机完成对相机前人物姿势的识别（称为主控相机），从而控制另一个相机（称为被控相机）进行各种操作，包括但不限于启动快门，调整常用的相机参数等操作。
