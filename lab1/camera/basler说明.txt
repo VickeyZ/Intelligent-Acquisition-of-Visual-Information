@@ -1,0 +1,13 @@
+sample:  
+	$(PYLON_DEV_DIR)\Samples\C++\Grab
+
+环境配置：
+include path(property->c++ directories->include directories):
+	\opencv\include\
+	$(PYLON_DEV_DIR)\include
+lib path(property->c++ directories->library directories)：
+	\opencv\libs\
+	$(PYLON_DEV_DIR)\lib\x64
+add lib(property->linker->input):
+	opencv_x64_world310.lib
+	GCBase_MD_VC120_v3_0_Basler_pylon_v5_0.lib

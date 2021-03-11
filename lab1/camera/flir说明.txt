@@ -1,0 +1,17 @@
+sample:  
+	\Spinnaker\src\Acquisition
+
+环境配置：
+include path(property->c++ directories->include directories):
+	\opencv\include\
+	\Spinnaker\include
+lib path(property->c++ directories->library directories)：
+	\opencv\libs\
+	\Spinnaker\lib64\vs2015
+add lib(property->linker->input):
+	opencv_x64_world310.lib
+	Spinnaker_v140.lib
+
+有个小问题是2017vs使用2015的lib（也可以找找更新的lib）	
+property -> c/c++ -> language -> conformance mode : no
+property -> c/c++ -> general-> sdk checks : no
