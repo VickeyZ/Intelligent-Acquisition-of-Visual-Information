@@ -49,16 +49,18 @@ Intelligent Acquisition of Visual Information Course
 
 ### Lab4 Projector-Camera-Based Stereo Vision
 Approach #1: 2 Cameras + 1 Projector  
-  Stereo calibrate the two cameras  
-  Project a pattern / a few patterns  
-  Establish the correspondences between stereo calibrated cameras  
-  Triangulate (Depth map & 3D point cloud)  
+1. Stereo calibrate the two cameras  
+2. Project a pattern / a few patterns  
+3. Establish the correspondences between stereo calibrated cameras  
+4. Triangulate (Depth map & 3D point cloud)  
+
 Approach #2: 1 Camera + 1 Projector  
-  Calibrate the camera-projector system  
-  http://mesh.brown.edu/calibration/  
-  Project a pattern / a few patterns  
-  Establish the correspondences between camera pixels and projector pixels  
-  Triangulate (Depth map & 3D point cloud)  
+1. Calibrate the camera-projector system  
+2. http://mesh.brown.edu/calibration/  
+3. Project a pattern / a few patterns  
+4. Establish the correspondences between camera pixels and projector pixels  
+5. Triangulate (Depth map & 3D point cloud)  
+
 As approach 2 has been chosen.  
 
 ### Course Project
